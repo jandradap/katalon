@@ -18,5 +18,4 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 RUN apt-get update && \
     apt-get install --no-install-recommends -yq \
     curl \
-    apt-get clean && \
-    apt-get update
+    && apt-get clean
