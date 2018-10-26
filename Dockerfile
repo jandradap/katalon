@@ -20,4 +20,4 @@ RUN apt-get update && \
     curl \
     && apt-get clean
 
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT [""]
